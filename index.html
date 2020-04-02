@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web test</title>
+    <link rel="stylesheet" href="css/styles.min.css">
+</head>
+<body>
+    <header class="header">
+    <div class="wrapper">
+        <div class="header__content">
+            <div class="header__mobileBtn">
+                <span class="header__mobileBtn-span">M</span>
+            </div>
+            <nav class="header-nav">
+                <div class="header-nav__item">
+                    <a href="#PERSONAL" class="header-nav__a header-nav__a_active">Личная информация</a>
+                </div>
+                <div class="header-nav__item">
+                    <a href="#EXPERIENCE" class="header-nav__a">Опыт</a>
+                </div>
+                <div class="header-nav__item">
+                    <a href="#JAVASCRIPT" class="header-nav__a">Javascript</a>
+                </div>
+                <div class="header-nav__item">
+                    <a href="#ABOUT" class="header-nav__a">О себе</a>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+    <div class="title-block">
+        <h1 class="title-block__h3">Анкета</h1>
+    </div>
+    <form action="#" class="form">
+        <div class="wrapper">
+            <div class="personal" id="PERSONAL">
+    <div class="icon-block">
+        <img src="img/personal.svg" alt="" class="icon-block__img">
+    </div>
+    <div class="personal__title title">
+        <h3 class="title__h3">Личная информация</h3>
+    </div>
+    <div class="personal__item info-field">
+        <input type="text" class="personal__input" placeholder="Фио" value="Русецкий Андрей Александрович">
+        <div class="personal__input-desc">
+            <h4 class="personal__desc-text">ФИО</h4>
+        </div>
+    </div>
+    <div class="personal__select info-field">
+        <select name="birthDate" id="birthDateSelect" class="personal__select info-field">
+            <option value="Год рождения" disabled selected>Год рождения</option>
+            <option value="2000">2000</option>
+            <option value="1999">1999</option>
+            <option value="1998">1998</option>
+            <option value="1997">1997</option>
+            <option value="1996">1996</option>
+            <option value="1995">1995</option>
+        </select>
+        <ul class="fake-select">
+            <li class="fake-select__info">Год рождения</li>
+            <li class="fake-select__current">1997</li>
+            <li class="fake-select__list">
+                <ul class="fake-select__list-ul">
+                    <li class="fake-select__item">2000</li>
+                    <li class="fake-select__item">1999</li>
+                    <li class="fake-select__item">1998</li>
+                    <li class="fake-select__item">1997</li>
+                    <li class="fake-select__item">1996</li>
+                    <li class="fake-select__item">1995</li>
+                </ul>
+            </li>
+        </ul>
+        <div class="open-select">
+            <div class="open-select__btn">
+                <div class="btn-left__div"></div>
+                <div class="btn-right__div"></div>
+            </div>
+        </div>
+    </div>
+    <div class="personal__item info-field">
+        <input type="text" class="personal__input" placeholder="Место проживания" value="Беларусь, г.Бобруйск">
+        <div class="personal__input-desc">
+            <h4 class="personal__desc-text">Место проживания</h4>
+        </div>
+    </div>
+    <div class="personal__item info-field">
+        <input type="text" class="personal__input" placeholder="Skype" value="live:reactionsnake">
+        <div class="personal__input-desc">
+            <h4 class="personal__desc-text">Skype</h4>
+        </div>
+    </div>
+    <div class="personal__item info-field">
+        <input type="email" class="personal__input" placeholder="E-mail" value="reactionsnake@gmail.com">
+        <div class="personal__input-desc">
+            <h4 class="personal__desc-text">E-mail</h4>
+        </div>
+    </div>
+</div>
+
+            <div class="experience" id="EXPERIENCE">
+    <div class="icon-block">
+        <img src="img/experience.svg" alt="" class="icon-block__img">
+    </div>
+    <div class="experience__title title">
+        <h3 class="title__h3">Расскажите о своем опыте</h3>
+    </div>
+    <div class="experience__block">
+        <div class="experience__block-left">
+            <label class="check experience__item">
+                <input class="check__input" type="checkbox" checked>
+                <span class="check__box"></span>
+                БЭМ/OOCSS
+            </label>
+            <label class="check experience__item">
+                <input class="check__input" type="checkbox" checked>
+                <span class="check__box"></span>
+                Stylus/LESS/SASS
+            </label>
+            <label class="check experience__item">
+                <input class="check__input" type="checkbox" checked>
+                <span class="check__box"></span>
+                Работаю с SVG
+            </label>
+        </div>
+        <div class="experience__block-middle">
+            <label class="check experience__item">
+                <input class="check__input" type="checkbox" checked>
+                <span class="check__box"></span>
+                Верстаю семантично
+            </label>
+            <label class="check experience__item">
+                <input class="check__input" type="checkbox" checked>
+                <span class="check__box"></span>
+                ES2015/ES2016
+            </label>
+            <label class="check experience__item">
+                <input class="check__input" type="checkbox" checked>
+                <span class="check__box"></span>
+                Gulp/GRUNT
+            </label>
+        </div>
+        <div class="experience__block-right">
+            <label class="check experience__item">
+                <input class="check__input" type="checkbox">
+                <span class="check__box"></span>
+                Webpack
+            </label>
+            <label class="check experience__item">
+                <input class="check__input" type="checkbox" checked>
+                <span class="check__box"></span>
+                jQuery
+            </label>
+            <label class="check experience__item">
+                <input class="check__input" type="checkbox" checked>
+                <span class="check__box"></span>
+                Ипользую Git
+            </label>
+        </div>
+    </div>
+</div>
+            <div class="javascript" id="JAVSCRIPT">
+    <div class="icon-block">
+        <img src="img/javascript.svg" alt="" class="icon-block__img">
+    </div>
+    <div class="javascript__title title">
+        <h3 class="title__h3">Уровень владения JavaScript</h3>
+    </div>
+    <div class="skill-range">
+        <div class="skill-range__over"></div>
+        <div class="skill-range__hover"></div>
+        <div class="skill-range__steps">
+            <div class="skill__range-step1">
+                <h3 class="skill-range__name">Не владею</h3>
+                <div class="skill-range__border"></div>
+            </div>
+            <div class="skill__range-step2">
+                <h3 class="skill-range__name">Использую готовые решения</h3>
+                <div class="skill-range__border"></div>
+            </div>
+            <div class="skill__range-step3">
+                <h3 class="skill-range__name">Использую готовые решения и умею их переделывать</h3>
+                <div class="skill-range__border"></div>
+            </div>
+            <div class="skill__range-step4">
+                <h3 class="skill-range__name">Пишу сложный JS с нуля</h3>
+                <div class="skill-range__border"></div>
+            </div>
+        </div>
+        <div class="skill-range__bars">
+            <div class="skill-range__bar1"></div>
+            <div class="skill-range__bar2"></div>
+            <div class="skill-range__bar3"></div>
+            <div class="skill-range__bar4"></div>
+        </div>
+        <div class="skill-range__block" id="slider">
+            <div class="thumb"></div>
+        </div>
+    </div>
+</div>
+            <div class="about" id="ABOUT">
+    <div class="icon-block">
+        <img src="img/about.svg" alt="" class="icon-block__img">
+    </div>
+    <div class="about__title title">
+        <h3 class="title__h3">Расскажите о себе</h3>
+    </div>
+    <div class="about__desc">
+        <p class="about__desc-p">
+            Напишите несколько предложений, чем привлекла наша вакансия
+            и что вы ожидаете от работы у нас.
+        </p>
+    </div>
+    <div class="about__text info-field">
+        <textarea class="about__text-area" placeholder="Понравилась тем, что...">Вакансия понравилась стеком технологий,с которыми приходилось работать,возможностью работать удаленно и предстоящими задачами.</textarea>
+    </div>
+</div>
+            <div class="submit-btn">
+    <div class="wrapper">
+        <div class="submit-btn__block">
+            <button class="submit-btn__btn">Готово</button>
+        </div>
+    </div>
+</div>
+        </div>
+    </form>
+    <script src="js/script.min.js"></script>
+</body>
+</html>
